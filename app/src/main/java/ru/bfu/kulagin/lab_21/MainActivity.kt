@@ -10,7 +10,12 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
+import androidx.recyclerview.widget.DefaultItemAnimator
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import ru.bfu.kulagin.lab_21.databinding.ActivityMainBinding
+import java.time.LocalDate
+import java.util.*
 
 
 class MainActivity : AppCompatActivity() {
